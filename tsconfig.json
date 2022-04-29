@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ES6",
+    "module": "ES6",
+    "strict": true,
+    // Cannot find module 'lit'. Did you mean to set the 'moduleResolution' option to 'node', or to add aliases to the 'paths' option?
+    "moduleResolution": "node",
+    // : Experimental support for decorators is a feature that is subject to change in a future release. Set the 'experimentalDecorators' option in your 'tsconfig' or 'jsconfig' to remove this warning.
+    "experimentalDecorators": true
+  }
+}

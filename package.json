@@ -1,0 +1,32 @@
+{
+  "name": "google-chart-web-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:prd": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiwuofficial/google-chart-web-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiwuofficial/google-chart-web-components/issues"
+  },
+  "homepage": "https://github.com/tiwuofficial/google-chart-web-components#readme",
+  "dependencies": {
+    "@google-web-components/google-chart": "^5.0.2",
+    "express": "^4.18.0",
+    "lit": "^2.2.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.9",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
